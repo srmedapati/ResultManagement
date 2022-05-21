@@ -1,0 +1,21 @@
+.header{
+  min-height: 100vh;
+  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('https://srmap.edu.in/wp-content/uploads/2022/01/Infrastructure-top-banner-5.jpg?x80024');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img-logo{
+  background-color: #FCD900;
+  padding: 10px;
+  border: 2px;
+  border-radius: 20%;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
