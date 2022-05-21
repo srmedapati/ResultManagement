@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SRMS Login Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <section class="header">
+    <div class="container py-5 h-100">
+      <div class="row d-flex align-items-center justify-content-center h-100">
+        <div class="col-md-8 col-lg-7 col-xl-3">
+          <img src="data:image/png;base64,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" data-deferred="1" alt="logo image" class="rHLoR" width="70" height="70" data-iml="1059.199999988079" data-atf="true">
+          <!-- <img src="https://srmap.edu.in/wp-content/uploads/2018/03/BLogo.png?x80024" class="img-logo" alt="Phone image"> -->
+        </div>
+        <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1" style="background-color:white; padding:5%; border-radius:10%;">
+          <form action="login.php" method="POST">
+            <h4 class="display-10 fw-bold">Student Result Management System</h4>
+            <!-- Email input -->
+            <div class="form-outline mb-4 form-group">
+              <input type="text" name="usr" class="form-control form-control-lg" />
+              <label class="form-label" for="form1Example13">Email address</label>
+            </div>
+            <!-- Password input -->
+            <div class="form-outline mb-4 form-group">
+              <input type="password" name="pwd" class="form-control form-control-lg" />
+              <label class="form-label" for="form1Example23">Password</label>
+            </div>
+            <div class="d-flex justify-content-around align-items-center mb-4">
+              <!-- Checkbox -->
+              <div class="form-Checkbox">
+                <select name="role">
+                    <option>admin</option>
+                    <option>faculty</option>
+                    <option>students</option>
+                </select>
+              </div>
+              <a href="#!">Forgot password?</a>
+            </div>
+            <center>
+            <button name="submit" type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button><br><br>
+            <a href="#">Register User</a>
+            </center>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
